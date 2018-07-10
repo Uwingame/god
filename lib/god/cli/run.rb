@@ -67,7 +67,7 @@ module God
           end
 
           # start the event handler
-          God::EventHandler.start if God::EventHandler.loaded?
+          # God::EventHandler.start if God::EventHandler.loaded?
 
           load_config @options[:config]
         end
